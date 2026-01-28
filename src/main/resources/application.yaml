@@ -3,7 +3,7 @@ spring:
     name: cryptography
 
   datasource:
-    url: jdbc:mysql://localhost:3306/crypto
+    url: jdbc:mysql://localhost:3306/crypto?allowPublicKeyRetrieval=true&useSSL=false
     username: admin
     password: 123
     driver-class-name: com.mysql.cj.jdbc.Driver
